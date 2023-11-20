@@ -158,3 +158,40 @@ const textLoad = () => {
 }
 
 textLoad();
+
+//btn read more
+
+var div = document.querySelector(".more");
+var display = 0;
+
+function showblock(){
+  if(display == 1){
+    div.style.display = 'block';
+    display = 0;
+    document.querySelector('#bt').textContent="Read Less";
+  }
+  else
+  {
+    div.style.display = 'none';
+    display = 1;
+    document.querySelector('#bt').textContent="Read More";
+  }
+}
+
+var div2 = document.querySelector(".android");
+var display = 0;
+const btn = document.querySelector(".btn");
+
+function showblock1(){
+  if(display == 1){
+    div2.style.display = 'block';
+    display = 0;
+    document.querySelector('#bt1').textContent="Read Less";
+  }
+  else
+  {
+    div2.style.display = 'none';
+    display = 1;
+    document.querySelector('#bt1').textContent="Read More";
+  }
+}

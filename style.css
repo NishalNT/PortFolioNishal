@@ -696,7 +696,7 @@ div.row{
     position: relative;
     color: blue;
 }
-.boc h3{
+.box h3{
     font-size: 18px;
     padding: 10px 0 6px;
     font-family: Arial, Helvetica, sans-serif;
@@ -712,7 +712,7 @@ div.row{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     gap: 2rem;
 }
 
@@ -727,6 +727,71 @@ div.row{
     border-bottom: .6rem solid var(--main-color);
     transition: .5s ease;
 }
+
+.more .web,.prog > .prog-c,.tool > .tool-c,.android > .web{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 26px;
+    margin-bottom: 20px;
+}
+
+
+
+.prog{
+    margin-top: 20px;
+    border-top: 4px outset var(--main-color);
+    border-radius: 5px;
+}
+
+.android , .more{
+    display: none;
+    transition: display 0.5s ease;
+}
+
+
+.tool{
+    border-top: 4px outset var(--main-color);
+    border-radius: 5px;
+}
+
+.tool-a{
+    margin-bottom: 20px;
+}
+
+.prog-c,.tool-c{
+    margin-top: 15px;
+}
+
+ul,li{
+    list-style-type: none;
+}
+
+.line{
+    color: var(--main-color);
+    height: 90%;
+    width: 5px;
+    position: absolute;
+    
+}
+
+.tool > .title{
+    margin-bottom: 10px;
+}
+
+li{
+    font-size: 16px;
+}
+
+
+/* .services-box.one{
+    display: none;
+}
+.services-box.two{
+    display: none;
+} */
+
 
 .services-box i{
     font-size: 7rem;
@@ -1160,6 +1225,11 @@ div.row{
         right: 0;
         transform: rotate(90deg) translate(-50%,50%) scaleY(3);
         border-width: 23.9rem;
+    }
+
+    .services .services-container{
+        display: block;
+        padding: 10px;
     }
 
     .about{
