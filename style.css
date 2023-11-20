@@ -461,8 +461,9 @@ section{
     top: 50%;
     right: 0;
     transform: translateY(-50%);
-    width: 768px;
+    width: 800px;
     height: 768px;
+
     overflow: hidden;
     pointer-events: none;
 }
@@ -471,8 +472,8 @@ section{
     position: absolute;
     top: 0;
     right: 0;
-    width: 768px;
-    height: 768px;
+    width: 770px;
+    height: 770px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -529,8 +530,8 @@ section{
 }
 
 .home .profession-box .circle{
-    width: 560px;
-    height: 560px;
+    width: 550px;
+    height: 550px;
     border: 3px solid var(--main-color);
     border-radius: 50%;
 }
@@ -590,7 +591,7 @@ span{
 }
 
 .boximg{
-    background: url(images/ig.jpg);
+    background: url("images/ig.jpg");
     -webkit-background-size: cover;
     background-size: cover;
     width: 400px;
