@@ -1286,6 +1286,10 @@ div.row{
         width: 100vw;
     }
 
+    .home .profession-container .overlay{
+        top: 680px;
+    }
+
     .footer{
         flex-direction: column-reverse;
     }
