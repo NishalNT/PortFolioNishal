@@ -2329,10 +2329,10 @@ li{
     .dog:before {
         content: '';
         position: absolute;
-        bottom: 31.3333333333%;
+        bottom: 29.3333333333%;
         left: 0;
         width: 100%;
-        height: 3.3333333333%;
+        height: 2%;
     }
     .torso > .tail {
         --color: var(--color-spot);
