@@ -1771,6 +1771,11 @@ li{
         height: 85.8rem;
     }
 
+    video.video{
+        right: 50px;
+        position: relative;
+    }
+
     .home .profession-container .profession-box{
         right: -12rem;
         height: 85.8rem;
@@ -1810,6 +1815,10 @@ li{
     .navbar a.active::before{
         background: var(--main-color);
         opacity: .7;
+    }
+    video.video{
+        right: 50px;
+        position: relative;
     }
 
     .home .home-content{
@@ -2207,6 +2216,11 @@ li{
         height: 3rem;
         background:var(--white-color);
         border-radius: 50%;
+    }
+
+    video.video{
+        right: 50px;
+        position: relative;
     }
 
     .projects-container .projects-box{
