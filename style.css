@@ -998,7 +998,7 @@ html,body{
     width: 100vw;
     margin: 0px;
     margin-right: 0;
-    padding: 0.8em 0;
+    /* padding: 0.8em 0; */
     overflow-x: hidden;
 }
 
@@ -2259,6 +2259,12 @@ li{
 
     .contact form .input-box input{
         width: 100%;
+    }
+}
+
+@media (max-width: 400px){
+    .pet{
+        transform: scale(0.8);
     }
 }
 
