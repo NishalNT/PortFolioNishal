@@ -160,38 +160,38 @@ const textLoad = () => {
 textLoad();
 
 //btn read more
+document.addEventListener("DOMContentLoaded", function() {
+  var div = document.querySelector(".more");
+  var div2 = document.querySelector(".android");
+  var display1 = 0;
+  var display2 = 0;
 
-var div = document.querySelector(".more");
-var display = 0;
+  function showblock() {
+      if (display1 === 1) {
+          div.style.display = 'none';
+          display1 = 0;
+          document.querySelector('#bt').textContent = "Read More";
+      } else {
+          div.style.display = 'block';
+          display1 = 1;
+          document.querySelector('#bt').textContent = "Read Less";
+      }
+  }
 
-function showblock(){
-  if(display == 1){
-    div.style.display = 'block';
-    display = 0;
-    document.querySelector('#bt').textContent="Read Less";
+  function showblock1() {
+      if (display2 === 1) {
+          div2.style.display = 'none';
+          display2 = 0;
+          document.querySelector('#bt1').textContent = "Read More";
+      } else {
+          div2.style.display = 'block';
+          display2 = 1;
+          document.querySelector('#bt1').textContent = "Read Less";
+      }
   }
-  else
-  {
-    div.style.display = 'none';
-    display = 1;
-    document.querySelector('#bt').textContent="Read More";
-  }
-}
 
-var div2 = document.querySelector(".android");
-var display = 0;
-const btn = document.querySelector(".btn");
+  document.querySelector("#bt").addEventListener("click", showblock);
+  document.querySelector("#bt1").addEventListener("click", showblock1);
+});
 
-function showblock1(){
-  if(display == 1){
-    div2.style.display = 'block';
-    display = 0;
-    document.querySelector('#bt1').textContent="Read Less";
-  }
-  else
-  {
-    div2.style.display = 'none';
-    display = 1;
-    document.querySelector('#bt1').textContent="Read More";
-  }
-}
+
