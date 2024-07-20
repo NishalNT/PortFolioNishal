@@ -1584,12 +1584,12 @@ li{
     height: 300px;
 }
 
-/* .projects-container .projects-box video {
+.projects-container .projects-box video {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
-} */
+}
 
 .projects-box img{
     width: 100%;
